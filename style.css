@@ -1,0 +1,366 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;300&display=swap');
+
+*{
+    margin: 0;
+    color: white;
+}
+body{
+    background-color: black;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+}
+
+.menu{
+    display: flex;
+    padding: 20px;
+    gap: 20px;
+}
+
+.mainHeader {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    text-align: center;
+    padding: 200px;
+
+}
+
+.about{
+    margin-top: 200px;
+}
+
+.Services{
+    margin-top: 200px;
+}
+
+.Contact{
+    margin-top: 200px;
+}
+
+.Gallerysection {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 80px;
+}
+
+.logotext {
+    font-weight: 600;
+    font-size: 22.15px;
+}
+
+h2 {
+    text-align: center;
+    padding: 80px;
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 96px;
+}
+
+.textAbout{
+    font-family: "Inter";
+    font-weight: 300;
+    padding: 40px;
+    font-size: 31.38px;
+}
+
+h1{
+    font-family: "Inter";
+    font-weight: 400;
+    padding: 40px;
+    font-size: 34.84px;
+
+}
+
+.textServices{
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 26.86px;
+    padding: 40px;
+    color: black;
+}
+
+.quote{
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 26.86px;
+    padding: 40px;
+    color: black;
+}
+
+.menutext{
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 22.15px;
+}
+
+.headServices{
+    font-family: "Inter";
+    font-weight: 700;
+    font-size: 60.84px;
+    color: black;
+    padding-left: 20px;
+}
+
+.Gallery{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    
+}
+
+img{
+    min-width: 100%;
+    object-fit: cover;
+}
+
+
+.Galleryabout{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: center;
+}
+
+.web{
+    background-color: white;
+    color: black;
+}
+
+.product {
+    background-color: white;
+    color: black;
+}
+
+.graphic{
+    background-color: white;
+    color: black;
+}
+
+.mobile{
+    background-color: white;
+    color: black;
+}
+
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+
+.grey1 {
+    background-color: #F2F2F2;
+   
+}
+
+.grey2 {
+    background-color: #E2E2E2;
+    
+}
+
+.grey3 {
+    background-color: #C0C0C0;
+  
+}
+
+.grey4 {
+    background-color: #B4B4B4;
+}
+
+.emailnr{
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 63.79px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    text-align: center;
+}
+
+.year {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    gap: 80px;
+    padding: 10px;
+}
+
+.year {
+    font-family: "Inter";
+    font-weight: 600;
+    font-size: 20px;
+    color: black;
+}
+
+.footertext{
+    font-family: "Inter";
+    font-weight: 300;
+    font-size: 20px;
+    color: black;
+}
+
+.footerbox {
+    background-color: white;
+    
+}
+
+.hamburger{
+    display: none;
+}
+
+@media screen and (max-width: 640px) {
+
+    .menu{
+        display: none;
+    }
+    .hamburger{
+        display: flex;
+        justify-content: flex-end;
+        width: 10%;
+    }
+    
+    .mainHeader{
+        text-align: center;
+        padding: 0;
+    }
+
+    h1 {
+        font-family: "Inter";
+        font-weight: 400;
+        font-size: 11px;
+        padding: 80;
+    }
+
+    h2 {
+        font-family: "Inter";
+        font-weight: 400;
+        font-size: 25px;
+        padding: 20px;
+    }
+    .Gallery {
+        overflow-x: scroll;
+        display: flex;
+        align-items: center;
+        width: 100%;
+        gap: 1rem;
+    }
+
+    .Gallery img {
+        aspect-ratio: 1/1;
+        max-width: 200px;
+    }
+
+
+    .textAbout {
+        font-family: "Inter";
+        font-weight: 400;
+        font-size: 8px;
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    .Galleryabout {
+        overflow-x: scroll;
+        display: flex;
+        align-items: center;
+        padding-top: 0;
+        gap: 1rem;
+    }
+
+    .Galleryabout img {
+        aspect-ratio: 2/3;
+    }
+
+    img {
+        min-width: auto;
+    }
+
+    .Services {
+        margin-top: 100px;
+    }
+
+    .about {
+        margin-top: 100px;
+    }
+
+    .Contact {
+        margin-top: 100px;
+    }
+
+    .allservice {
+        overflow-x: scroll;
+        display: flex;
+        flex-direction: row;
+        padding-top: 0;
+    }
+
+    .container{
+        gap: 20px;
+        height: 150px;
+        padding-left: 20px;
+        padding-right: 0;
+    }
+
+    .emailnr {
+        font-family: "Inter";
+        font-weight: 400;
+        font-size: 17px;
+        padding-bottom: 20px;
+        text-align: center;
+        }
+    .footertext{
+        display: none;
+    }
+
+
+    .footer{
+        display: flex;
+        justify-content: center;
+    }
+
+    .footerbox {
+        display: none;
+    }
+
+    .headServices{
+        width: 200px;
+        font-size: 15px;
+        font-weight: 700; 
+        font-family: "Inter";
+        padding: 5px;
+    }
+
+    .textServices{
+        font-family: "Inter";
+        font-weight: 400;
+        font-size: 7px;
+        padding: 5px;
+    }
+    
+    .quote{
+        font-family: "Inter";
+        font-weight: 400;
+        font-size: 6px;
+        padding: 5px;
+    }
+
+    .Gallerysection{
+        padding-top: 0;
+    }
+}
+
+

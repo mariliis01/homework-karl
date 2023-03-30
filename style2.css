@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;300&display=swap');
+
+* {
+    margin: 0;
+    color: white;
+}
+
+body {
+    background-color: black;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    padding: 40px;
+    gap: 20px
+}
+
+.page2 {
+    text-align: center;
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 80.47px;
+}
+
+.headline
+{
+    padding-top: 80px;
+}
+
+.photocamera {
+    justify-content: center;
+    min-width: 100%;
+    display: flex;
+    margin: auto;
+}
+
+.undercameratext{
+    display: flex;
+    text-align: center;
+    font-family: "Inter";
+    font-weight: 300;
+    font-size: 30px;
+}
+
+.cameratext{
+    padding: 200px;
+}
+
+.projectpage{
+    display: grid;
+    grid-template-rows: 1fr 150px 1fr;
+    grid-template-areas: 
+    "image text1"
+    "image image2"
+    "text2 image2";
+    gap: 40px;
+}
+
+.image {
+    grid-area: image;
+    min-width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+}
+
+.text1 {
+    display: flex;
+    align-items: flex-start;
+    grid-area: text1;
+    text-align: left;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.text2 {
+    display: flex;
+    align-items: flex-end;
+    grid-area: text2;
+    text-align: right;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.image2 {
+    grid-area: image2;
+    min-width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+}
+
+.textreview{
+    text-align: center;
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 74.36px;
+}
+
+.reviews{
+    padding-top: 200px;
+    padding-bottom: 40px;
+}
+
+.feedback{
+display: grid;
+grid-template-columns: 1fr 1fr;
+padding-bottom: 200px;
+
+}
+
+.feedbacktext{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.customerheader{
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 58px;
+}
+
+.text3{
+    font-family: "Inter";
+    font-weight: 300;
+    font-size: 30px;
+}
+
+.customerimage{
+    padding: 40px;
+}
+
+.year {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    gap: 80px;
+    padding: 10px;
+}
+
+.year {
+    font-family: "Inter";
+    font-weight: 600;
+    font-size: 20px;
+    color: black;
+}
+
+.footertext {
+    font-family: "Inter";
+    font-weight: 300;
+    font-size: 20px;
+    color: black;
+}
+
+.footerbox {
+    background-color: white;
+
+}
