@@ -215,6 +215,10 @@ img{
 
 .footerbox {
     background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
     
 }
 
@@ -323,7 +327,7 @@ img{
         text-align: center;
         }
     .footertext{
-        display: none;
+        visibility: hidden;
     }
 
 
@@ -333,7 +337,21 @@ img{
     }
 
     .footerbox {
-        display: none;
+        flex-direction: column;
+        background-color: black;
+    }
+
+    .year {
+        display: block;
+        color: white;
+    }
+
+    .2022 {
+        margin: 0 auto;
+    }
+
+    .footer {
+        gap: 0;
     }
 
     .headServices{

@@ -159,6 +159,10 @@ padding-bottom: 200px;
 }
 
 .footerbox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     background-color: white;
+    padding: 0 2rem;
 
 }
